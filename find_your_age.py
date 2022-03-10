@@ -26,9 +26,6 @@ currentMonth :int= datetime.now().month
 currentYear :int= datetime.now().year
 
 def checkAge(message):
-    
-       
-    
     while True:
         try:
             birth_day = int(input(message))
@@ -40,10 +37,8 @@ def checkAge(message):
                 print('wrong date [date should be in 1-31]')
             else:
                 return birth_day
+
 def checkMonth(message):
-    
-       
-    
     while True:
         try:
             birth_month = int(input(message))
@@ -55,10 +50,8 @@ def checkMonth(message):
                 print('wrong date [Month should be in 1-12]')
             else:
                 return birth_month
+                
 def checkYear(message):
-    
-       
-    
     while True:
         try:
             birth_year = int(input(message))
